@@ -10,6 +10,6 @@ on:
 jobs:
   contract-test:
     name: Contract Test
-    uses: Bandwidth-Samples/sample-app-tooling/.github/workflows/ruby.yml@v1
+    uses: Bandwidth-Samples/sample-app-tooling/.github/workflows/ruby.yml@main
     with:
       sample: voice-record
