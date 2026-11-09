@@ -18,7 +18,7 @@ This sample app demonstrates how to record a message from an inbound call, simil
 
 When the user calls the Bandwidth phone number associated with this application, the user will hear an audio prompt to leave a message, then a beep. Once this happens, the call will begin recording, for up to 30 seconds.
 
-When the call ends, Bandwidth will start to process the recording. Once this processing is complete, Bandwidth will send a webhook to the `/callbacks/inbound/voice/recordingAvailable` endpoint on this application. Once received, the application will download the recording via Bandwidth's voice recording API.
+When the call ends, Bandwidth will start to process the recording. Once this processing is complete, Bandwidth  send a webhook to the `/callbacks/inbound/voice/recordingAvailable` endpoint on this application. Once received, the application will download the recording via Bandwidth's voice recording API.
 
 # Pre-Requisites
 
