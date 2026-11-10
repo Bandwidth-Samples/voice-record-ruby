@@ -47,9 +47,9 @@ ruby app.rb
 The sample app uses the below environmental variables.
 
 ```sh
-BW_ACCOUNT_ID                        # Your Bandwidth Account Id
-BW_CLIENT_ID                         # Your Bandwidth API OAuth Client Id
 BW_CLIENT_SECRET                     # Your Bandwidth API OAuth Client Secret
+BW_CLIENT_ID                         # Your Bandwidth API OAuth Client Id
+BW_ACCOUNT_ID                        # Your Bandwidth Account Id
 LOCAL_PORT                           # The port number you wish to run the sample on
 ```
 
